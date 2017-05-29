@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:weightSum="1">
+
+  <com.aitorvs.android.eyetoggle.camera.CameraSourcePreview
+      android:id="@+id/preview"
+      android:layout_width="match_parent"
+      android:layout_height="390dp"
+      android:weightSum="1"
+      android:layout_weight="0.87">
+
+    <com.aitorvs.android.eyetoggle.camera.GraphicOverlay
+        android:id="@+id/faceOverlay"
+        android:layout_width="wrap_content"
+        android:layout_height="408dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true" />
+
+  </com.aitorvs.android.eyetoggle.camera.CameraSourcePreview>
+
+  <Button
+      android:id="@+id/button5"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="initialize"
+      android:onClick="onClickInit" />
+
+  <Button
+      android:id="@+id/back_to_read"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="onClickBack"
+      android:text="Back to read" />
+
+</LinearLayout>
