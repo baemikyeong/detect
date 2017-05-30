@@ -1,2 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.android/build-cache/95603f77217d3e5b794edea10995c86d75a84c32/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/mac/Downloads/face-tracking-sample-master 2/app/build/intermediates/pre-dexed/debug/classes_9cdc2de911e7861e67a88fda59483c6e999f3803.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.android/build-cache/889adfc6cd877008bed499e72b0ac69c4e61e358/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/mac/Downloads/face-tracking-sample-master 2/app/build/intermediates/pre-dexed/debug/classes_73bf19fe87a1b7b17dfefe89564802842331ffc4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.android/build-cache/44b9251b8b94a53f0f5c30f3c6f089f580ea42e5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/mac/Downloads/face-tracking-sample-master 2/app/build/intermediates/pre-dexed/debug/classes_e964367a58eb0e9f61ebc74f5d566e533681a0ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/mac/Downloads/face-tracking-sample-master 2/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_960e906e606a0b342936184fd389de6b539f4acf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.android/build-cache/87d39c326d67aeed94b0ca111e9557510417ea61/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/mac/Downloads/face-tracking-sample-master 2/app/build/intermediates/pre-dexed/debug/classes_17fa331911795743d734f0282424ca9f13dca45b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.android/build-cache/03104ec18cc2bd3223716fe2956666b18f63fd83/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b10d60271c8298c59316050648bd9bb7adc5019a">
+        <dex dex="/Users/mac/Downloads/face-tracking-sample-master 2/app/build/intermediates/pre-dexed/debug/classes_35226902476400d53f35625bb55a342547e43ab7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.android/build-cache/8b35974dc1406b85fbca4f4ea5d5368294e57d93/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/mac/Downloads/face-tracking-sample-master 2/app/build/intermediates/pre-dexed/debug/classes_7154e0e2037422e815b3caabaf076f37556ab3b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.android/build-cache/52b131bce12aa6b82cff49fd135ffb12ec68fd98/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/mac/Downloads/face-tracking-sample-master 2/app/build/intermediates/pre-dexed/debug/classes_e52d9bbefa5e0dd00ebc22bdbc9c8c5e23fc6a4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.android/build-cache/c60a22347d954e05cb9ab0a77c2b6e0693b2a4ad/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/mac/Downloads/face-tracking-sample-master 2/app/build/intermediates/pre-dexed/debug/classes_dba23e6a75e7fa19a27f61893735dd5315b2ea40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.android/build-cache/5cb761cf2c176f11b7ffdb411f778ec457dbe564/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/mac/Downloads/face-tracking-sample-master 2/app/build/intermediates/pre-dexed/debug/classes_9c6f7a3303d0f4cbe76e38ce3ac065e8863ec3c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.android/build-cache/87cc6fb153d8e50d707f2519388f6bbb702181a7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/mac/Downloads/face-tracking-sample-master 2/app/build/intermediates/pre-dexed/debug/classes_e61152e572008435dc2891297442ed9fb27afe26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.android/build-cache/2e53b1abc13d94634eb89aae0f244dbc12332e6a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/mac/Downloads/face-tracking-sample-master 2/app/build/intermediates/pre-dexed/debug/classes_d43386b8e9a7052aadba984b60117d2b7252dd0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.android/build-cache/f266b1619d3b5044e9fd14ed57e72ae4cc1e6dc1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mac/Downloads/face-tracking-sample-master 2/app/build/intermediates/pre-dexed/debug/classes_26c1d4c4cb61a21aa417f6a55ca149d1ab8bd6f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/mac/Downloads/face-tracking-sample-master 2/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_36aea58734aa23c0a599a9d52f17961edc02af4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/.android/build-cache/02c1e472877612c8cd2a57be92b3722cc02add0b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/mac/Downloads/face-tracking-sample-master 2/app/build/intermediates/pre-dexed/debug/classes_2ed49df0e1e241efca02ae2c5ec6a17c6927ab1d.jar" />
+    </item>
+
+</items>

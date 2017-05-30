@@ -165,9 +165,14 @@ public final class FaceTrackerActivity extends Activity {
             mCameraSource = null;
         }
 
-        intent.putExtra("Left_thred", left_thred);
-        intent.putExtra("Right_thred", right_thred);
-
+        if(check == 1) {
+            intent.putExtra("Left_thred", left_thred);
+            intent.putExtra("Right_thred", right_thred);
+        }
+        else{
+            intent.putExtra("Left_thred", (double)0.5);
+            intent.putExtra("Right_thred", (double)0.5);
+        }
         startActivity(intent);
 
     }
@@ -180,6 +185,13 @@ public final class FaceTrackerActivity extends Activity {
             e.printStackTrace();
         }
             check = 1;
+        onPause();
+        onResume();
+
+        GraphicFaceTracker a = new GraphicFaceTracker(mGraphicOverlay);
+
+        left_thred = a.mFaceGraphic.return_left();
+        right_thred = a.mFaceGraphic.return_right();
     }
     /**
      * Restarts the camera.
@@ -316,6 +328,16 @@ public final class FaceTrackerActivity extends Activity {
         GraphicFaceTracker(GraphicOverlay overlay) {
             mOverlay = overlay;
             mFaceGraphic = new FaceGraphic(overlay);
+            if(check == 1){
+                mFaceGraphic.setcheck();
+            }
+            return_check();
+        }
+
+        public void return_check(){
+
+                right_thred = mFaceGraphic.right_thred;
+                left_thred = mFaceGraphic.left_thred;
 
         }
 
@@ -324,7 +346,11 @@ public final class FaceTrackerActivity extends Activity {
          */
         @Override
         public void onNewItem(int faceId, Face item) {
+            if(check == 1){
+                mFaceGraphic.setcheck();
+            }
             mFaceGraphic.setId(faceId);
+          return_check();
         }
 
         /**
@@ -334,11 +360,10 @@ public final class FaceTrackerActivity extends Activity {
         public void onUpdate(FaceDetector.Detections<Face> detectionResults, Face face) {
             mOverlay.add(mFaceGraphic);
             mFaceGraphic.updateFace(face);
-                if(check == 1) {
-                    right_thred = mFaceGraphic.return_right();
-                    left_thred = mFaceGraphic.return_left();
-                    check++;
-                }
+            if(check == 1){
+                mFaceGraphic.setcheck();
+            }
+             return_check();
         }
 
         /**

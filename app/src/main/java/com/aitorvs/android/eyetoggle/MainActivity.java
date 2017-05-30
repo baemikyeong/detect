@@ -89,13 +89,12 @@ public class MainActivity extends Activity {
 
         try {
             Intent intent = this.getIntent();
-                left_thres = intent.getDoubleExtra("left_thred",0.0);
-                right_thres = intent.getDoubleExtra("right_thred",0.0);
-
-            //    if(left_thres == 0 || right_thres == 0){
-            Toast.makeText(this, left_thres + " " + right_thres, Toast.LENGTH_SHORT).show();
-            //    }
-        }catch(NullPointerException e){
+            if(intent != null) {
+                left_thres = intent.getDoubleExtra("Left_thred", 0.0);
+                right_thres = intent.getDoubleExtra("Right_thred", 0.0);
+                Toast.makeText(this, left_thres + " " + right_thres, Toast.LENGTH_SHORT).show();
+            }
+            }catch(NullPointerException e){
             e.printStackTrace();
         }
         // check that the play services are installed

@@ -52,8 +52,9 @@ class FaceGraphic extends GraphicOverlay.Graphic {
     private int mFaceId;
     private float mFaceHappiness;
 
-    private double left_thred;
-    private double right_thred;
+    public static double left_thred;
+    public static double right_thred;
+    private int face_check=0;
 
     FaceGraphic(GraphicOverlay overlay) {
         super(overlay);
@@ -88,11 +89,14 @@ class FaceGraphic extends GraphicOverlay.Graphic {
         postInvalidate();
     }
 
-    double return_left(){
-        return left_thred;
+    public double return_left(){ return left_thred; }
+
+    public double return_right(){ return right_thred;}
+
+    void setcheck(){
+        face_check = 1;
     }
 
-    double return_right(){ return right_thred;}
     /**
      * Draws the face annotations for position on the supplied canvas.
      */
@@ -121,7 +125,13 @@ class FaceGraphic extends GraphicOverlay.Graphic {
         float bottom = y + yOffset;
         canvas.drawRect(left, top, right, bottom, mBoxPaint);
 
-        right_thred = face.getIsRightEyeOpenProbability();
-        left_thred = face.getIsLeftEyeOpenProbability();
+        if(face_check == 1) {
+
+            canvas.drawText("성공", x, y, mIdPaint);
+            right_thred = face.getIsRightEyeOpenProbability();
+            left_thred = face.getIsLeftEyeOpenProbability();
+
+            face_check++;
+        }
     }
 }
