@@ -51,6 +51,7 @@ import com.google.android.gms.vision.CameraSource;
 import com.google.android.gms.vision.face.Face;
 import com.google.android.gms.vision.face.FaceDetector;
 import com.google.android.gms.vision.face.LargestFaceFocusingProcessor;
+import com.aitorvs.android.eyetoggle.soundrecorder.activities.*;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -182,6 +183,14 @@ public class MainActivity extends Activity {
 
         Toast.makeText(this, "초기화를 시작합니다", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "시작버튼을 누른 후, 약 삼초간 눈을 감아주세요", Toast.LENGTH_SHORT).show();
+
+        startActivity(intent);
+
+    }
+
+    public void onClickVoice (View v ){
+
+        Intent intent=new Intent(MainActivity.this, recordActivity.class);
 
         startActivity(intent);
 
